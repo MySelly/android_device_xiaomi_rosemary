@@ -5,6 +5,9 @@
 # Audio
 ro.audio.silent=0
 
+# Audio Volume Steps
+ro.config.media_vol_steps=20
+
 # Bluetooth
 ro.bluetooth.emb_wp_mode=false
 ro.bluetooth.wipower=false
