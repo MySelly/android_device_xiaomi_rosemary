@@ -146,6 +146,8 @@ on late-fs
 
 on post-fs
     write /proc/bootprof "INIT:post-fs"
+    rm /data/resource-cache
+    rm /data/system/package_cache
 
 # rosemary  Add persist in 20211020 start
     chown system system /mnt/vendor/persist
