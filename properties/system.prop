@@ -49,6 +49,11 @@ ro.iorapd.enable=false
 # Logging
 persist.sys.mdlog_dumpback=2
 
+# Radio
+ril.subscription.types=NV,RUIM
+telephony.lteOnCdmaDevice=1
+persist.rcs.supported=1
+
 # MIUI
 ro.miui.build.region=global
 
