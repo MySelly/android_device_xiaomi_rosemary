@@ -17,6 +17,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-8192-dalvik-heap.mk)
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
+# Miui Camera
+$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
+
 # BCR
 $(call inherit-product, vendor/bcr/bcr.mk)
 
