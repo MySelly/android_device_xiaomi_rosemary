@@ -261,6 +261,9 @@ import /vendor/build_${ro.boot.radio.multisim.config}_vendor.prop
 # Resampler
 af.resampler.quality=7
 
+# Sensors
+persist.vendor.sensors.debug.hal=0
+
 # Shutdown
 init.userspace_reboot.is_supported=true
 
