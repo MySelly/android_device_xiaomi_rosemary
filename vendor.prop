@@ -19,6 +19,11 @@ ro.vendor.mtk_nn_baseline_support=1
 aaudio.mmap_policy=0
 aaudio.mmap_exclusive_policy=0
 ro.audio.monitorRotation=true
+ro.audio.resampler.psd.stopband=132
+ro.audio.resampler.psd.halflength=960
+ro.audio.resampler.psd.cutoff_percent=98
+ro.audio.resampler.psd.tbwcheat=0
+ro.audio.usb.period_us=20375
 ro.config.vc_call_vol_steps=11
 ro.vendor.mtk_audio_alac_support=1
 ro.vendor.mtk_audio_tuning_tool_ver=V2.2
@@ -249,6 +254,9 @@ ro.vendor.mtk_modem_monitor_support=1
 ro.vendor.mtk_dmc_support=1
 ro.vendor.mtk_mapi_support=1
 import /vendor/build_${ro.boot.radio.multisim.config}_vendor.prop
+
+# Resampler
+af.resampler.quality=7
 
 # Shutdown
 init.userspace_reboot.is_supported=true
