@@ -78,6 +78,7 @@ ro.vendor.mtk_slow_motion_support=1
 ro.mtk_cam_dualzoom_support=1
 ro.mtk_cam_stereo_camera_support=1
 ro.vendor.mtk_camera_app_version=3
+vendor.camera.aux.packagelist=com.snapchat.android
 
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
