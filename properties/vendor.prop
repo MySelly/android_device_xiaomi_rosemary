@@ -330,6 +330,9 @@ ro.hardware.gatekeeper=beanpod
 ro.vendor.mtk_microtrust_tee_support=1
 ro.mtk_key_manager_support=1
 
+# Perf
+vendor.perf.framepacing.enable=1
+
 # Performance
 debug.performance.tuning=1
 
