@@ -79,6 +79,13 @@ ro.mtk_cam_dualzoom_support=1
 ro.mtk_cam_stereo_camera_support=1
 ro.vendor.mtk_camera_app_version=3
 
+# Dex2oat
+dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.dex2oat-cpu-set=4,5,6,7
+dalvik.vm.dex2oat-threads=4
+dalvik.vm.image-dex2oat-cpu-set=4,5,6,7
+dalvik.vm.image-dex2oat-threads=4
+
 # DRM
 drm.service.enabled=true
 ro.netflix.bsp_rev=MTK6785-18758-1
