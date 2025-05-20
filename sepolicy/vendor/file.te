@@ -18,3 +18,6 @@ type sysfs_touchpanel, sysfs_type, fs_type;
 
 # PD Adapter
 type vendor_sysfs_pd_adapter, sysfs_type, fs_type;
+
+# Battery Supply
+type vendor_sysfs_battery_supply, sysfs_type, fs_type;
