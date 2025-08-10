@@ -12,6 +12,9 @@ ro.bluetooth.wipower=false
 # Brand
 Build.BRAND=MTK
 
+# Blur
+ro.sf.blurs_are_expensive=1
+
 # Camera
 ro.camera.sound.forced=0
 
