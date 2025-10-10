@@ -341,6 +341,10 @@ debug.performance.tuning=1
 # Ram
 persist.sys.purgeable_assets=1
 
+# ScrollOptimizer
+persist.sys.perf.scroll_opt=true
+persist.sys.perf.scroll_opt.heavy_app=1
+
 # USB
 vendor.usb.controller=usb0
 
