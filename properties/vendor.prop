@@ -332,6 +332,9 @@ ro.mtk_key_manager_support=1
 # Performance
 debug.performance.tuning=1
 
+# Ram
+persist.sys.purgeable_assets=1
+
 # USB
 vendor.usb.controller=usb0
 
