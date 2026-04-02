@@ -431,4 +431,7 @@
 
     <!-- Whether to show a alarm dialog when device's usb port is overheating. -->
     <integer name="config_showUsbPortAlarm">1</integer>
+
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_supportSmartPixels">true</bool>
 </resources>
