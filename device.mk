@@ -382,3 +382,10 @@ PRODUCT_COPY_FILES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/rosemary/rosemary-vendor.mk)
+
+# ViPER4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
+PRODUCT_PACKAGES += \
+    ViPER4AndroidFX \
+    libv4a_re

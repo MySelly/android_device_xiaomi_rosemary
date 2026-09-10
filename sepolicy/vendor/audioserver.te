@@ -1,0 +1,8 @@
+allow audioserver unlabeled:file {
+    getattr
+    open
+    read
+    write
+};
+
+allow hal_audio_default hal_audio_default:process execmem;
